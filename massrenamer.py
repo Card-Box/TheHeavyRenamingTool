@@ -212,7 +212,7 @@ def switchDirectory():
 
     os.chdir(directoryName)
 
-    """ Jio Note:
+    """ Card_Box Note:
     
         This code is courtesy of Jay from this stackOverflow post: https://stackoverflow.com/questions/168409/how-do-you-get-a-directory-listing-sorted-by-creation-date-in-python
 
@@ -582,7 +582,7 @@ def renameAndNext():
 
 
 root = ThemedTk()
-root.title("The Mass Renamer")
+root.title("The Heavy Renaming Tool")
 
 mainframe = ttk.Frame(root, padding="3 3 3 3")
 mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
@@ -640,7 +640,7 @@ topHalfFrame.columnconfigure(0, weight=1)
 topHalfFrame.columnconfigure(1, weight=20)
 topHalfFrame.rowconfigure(1, weight=1)
 
-cardboxTag = ttk.Label(topHalfFrame, text="The Mass Renamer by Card_Box", anchor="center", padding="6 6 6 6")
+cardboxTag = ttk.Label(topHalfFrame, text="The Heavy Renaming Tool \nBy Card_Box", anchor="center", padding="6 6 6 6")
 cardboxTag.grid(column=0, row=0, sticky=(N, W, E, S))
 
 # File Info Frame
@@ -899,7 +899,7 @@ fileListFrame.grid(column=0, row=4, sticky=(N, S, W, E))
 fileListFrame.columnconfigure(0, weight=1)
 fileListFrame.rowconfigure(0, weight=1)
 
-# Granted, adding a bunch of pokemon (and beasties) to the initialization of the filesList is a really dumb idea; but in the end its my program, so a little bit of fun can't hurt.
+# Adding a bunch of pokemon (and beasties) to the initialization of the filesList is completely unncessesary.
 # Feel free to empty this list for a more ergonomic user experience.
 
 filesList = [
