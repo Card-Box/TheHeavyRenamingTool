@@ -5,10 +5,6 @@ The Heavy Renaming Tool is a program I wrote in Python that uses Tkinter alongsi
 
 There's a couple bells and whistles here and there but it's overall pretty robust and only really meant to do what it was designed for.
 
-I apologize in advance for any issues regarding my programming, it's pretty obvious I was learning tkinter along the way and I wish any people trying to decipher it the best of luck.
-
-( Its probably not even that bad, but I'm just being careful. )
-
 See this video; https://youtu.be/IfByXh1n-6w for more information.
 
 
